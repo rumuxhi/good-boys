@@ -1,0 +1,41 @@
+/* Mobile */
+@media screen and (max-width: 400px) {
+    .header__list {
+        gap: 10px;
+    }
+
+    .wrapper__container {
+        gap: 20px;
+    }
+
+    .wrapper__title h1 {
+        font-size: 28px;
+    }
+
+    .wrapper__description {
+        font-size: 12px;
+    }
+
+    .wrapper__right img {
+        max-width: 150px;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 401px) and (max-width: 960px) {
+    .wrapper__container {
+        gap: 2-px;
+    }
+
+    .wrapper__title h1 {
+        font-size: 36px;
+    }
+
+    .wrapper__description {
+        font-size: 14px;
+    }
+
+    .wrapper__right img {
+        max-width: 220px;
+    }
+}
